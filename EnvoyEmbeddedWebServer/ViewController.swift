@@ -12,6 +12,8 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        let fruitEmbeddedServer = SimpleServer()
+        fruitEmbeddedServer.runAFruitDataServer()
         // Do any additional setup after loading the view.
     }
 

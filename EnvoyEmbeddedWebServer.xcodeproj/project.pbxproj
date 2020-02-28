@@ -265,7 +265,6 @@
 					};
 					9846C7AD240918D300B08C2B = {
 						CreatedOnToolsVersion = 11.2.1;
-						TestTargetID = 9846C797240918D200B08C2B;
 					};
 					9846C7B8240918D300B08C2B = {
 						CreatedOnToolsVersion = 11.2.1;
@@ -645,7 +644,6 @@
 			baseConfigurationReference = 1B6FA9738E99F1A57568E247 /* Pods-EnvoyEmbeddedWebServerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y983APTU2S;
 				INFOPLIST_FILE = EnvoyEmbeddedWebServerTests/Info.plist;
@@ -659,7 +657,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EnvoyEmbeddedWebServer.app/EnvoyEmbeddedWebServer";
 			};
 			name = Debug;
 		};
@@ -668,7 +665,6 @@
 			baseConfigurationReference = 36CCB36762B597114247F251 /* Pods-EnvoyEmbeddedWebServerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y983APTU2S;
 				INFOPLIST_FILE = EnvoyEmbeddedWebServerTests/Info.plist;
@@ -682,7 +678,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EnvoyEmbeddedWebServer.app/EnvoyEmbeddedWebServer";
 			};
 			name = Release;
 		};

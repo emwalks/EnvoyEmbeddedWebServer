@@ -13,7 +13,7 @@ import EnvoyAmbassador
 
 class SimpleServer {
     
-   // http://[::1]:8080/api/v2/users
+    // http://[::1]:8080/api/v2/users
     func runASimpleServer() {
         let loop = try! SelectorEventLoop(selector: try! KqueueSelector())
         let router = Router()
@@ -61,6 +61,8 @@ class SimpleServer {
         
         // Run event loop
         loop.runForever()
+        
+        
     }
     
 }
